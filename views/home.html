@@ -1,11 +1,51 @@
-<!-- 🏗 Structo the Builder -->
-<!-- Utwórz podstawową strukturę dokumentu HTML dla strony głównej. -->
-
-<!-- 🏗 Structo the Builder -->
-<!-- Ustaw tytuł strony na "Shop - Home" -->
- 
-<!-- 🏗 Structo the Builder -->
-<!-- Główny nagłówek strony. -->
-
-<!-- 🏗 Structo the Builder -->
-<!-- Dodaj nawigację z linkami do różnych sekcji sklepu. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .nav {
+            margin: 20px 0;
+        }
+        .nav a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .welcome-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our shop!</h1>
+    
+    <div class="nav">
+        <a href="/product/add">Add product</a>
+        <a href="/product/new">Newest product</a>
+        <a href="/logout">Logout</a>
+    </div>
+    
+    <div class="welcome-section">
+        <h2>Manage products</h2>
+        <p>This is a simple demonstration application for Node.js and Express.js. You can add products and view the most recently added product.</p>
+    </div>
+</body>
+</html>
